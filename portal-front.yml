@@ -1,0 +1,11 @@
+# default config
+message: values
+secret: default-password
+
+---
+# test profile
+spring:
+  profiles: test
+secret: test-password
+
+
